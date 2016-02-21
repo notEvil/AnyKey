@@ -68,8 +68,19 @@ MaxHist = 32 # max number of undo steps
 Abbrs = (
     # abbreviations at same depth have equal priority
     # abbreviations at lower depth have higher priority
-    [('aue', 'aue'), ('Aue', 'Aue'), ('eue', 'eue'), ('Eue', 'Eue'), ('que', 'que'), ('Que', 'Que'), ('tuel', 'tuel'), ('zuers', 'zuers')],
-    [('ae', 'ä'), ('oe', 'ö'), ('ue', 'ü'), ('AE', 'Ä'), ('OE', 'Ö'), ('UE', 'Ü'), ('EUR', '€'), ('SS', 'ß')],
+    [('aue', 'aue'), # Mauer
+     ('Aue', 'Aue'), # Auerhahn
+     ('eue', 'eue'), # euer
+     ('Eue', 'Eue'), # Euer
+     ('que', 'que'), # quer
+     ('Que', 'Que'), # Quer
+     ('tuel', 'tuel'), # aktuell
+     ('zuers', 'zuers'), # zuerst
+    ],
+    [('ae', 'ä'),('oe', 'ö'), ('ue', 'ü'),
+     ('AE', 'Ä'), ('OE', 'Ö'), ('UE', 'Ü'),
+     ('EUR', '€'), ('SS', 'ß'),
+    ],
 )
 
 
