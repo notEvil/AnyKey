@@ -68,14 +68,15 @@ MaxHist = 32 # max number of undo steps
 Abbrs = (
     # abbreviations at same depth have equal priority
     # abbreviations at lower depth have higher priority
-    [('aue', 'aue'), # Mauer
-     ('Aue', 'Aue'), # Auerhahn
-     ('eue', 'eue'), # euer
-     ('Eue', 'Eue'), # Euer
-     ('que', 'que'), # quer
-     ('Que', 'Que'), # Quer
-     ('tuel', 'tuel'), # aktuell
-     ('zuers', 'zuers'), # zuerst
+    [('aue', 'aue'), # Mauer, bauen
+     ('Aue', 'Aue'), # Auerhahn, Auenland
+     ('eue', 'eue'), # Feuer, neuen
+     ('que', 'que'), # quer, bequem
+     ('aktuell', 'aktuell'),
+     ('Baguette', 'Baguette'),
+     ('Euer', 'Euer'),
+     ('Quer', 'Quer'),
+     ('zuerst', 'zuerst'),
     ],
     [('ae', 'ä'),('oe', 'ö'), ('ue', 'ü'),
      ('AE', 'Ä'), ('OE', 'Ö'), ('UE', 'Ü'),
@@ -796,8 +797,8 @@ try:
 
             Matches.append(match)
 
-        if minA == minB: # nothing to do
-            continue
+        # if minA == minB: # nothing to do # wrong
+            # continue
 
         ## perform abbr
         clear, write = undo(len(minA), chars=True)
