@@ -77,6 +77,7 @@ Abbrs = (
      ('Euer', 'Euer'),
      ('Quer', 'Quer'),
      ('zuerst', 'zuerst'),
+     ('Zuerst', 'Zuerst'),
     ],
     [('ae', 'ä'),('oe', 'ö'), ('ue', 'ü'),
      ('AE', 'Ä'), ('OE', 'Ö'), ('UE', 'Ü'),
