@@ -71,13 +71,14 @@ Abbrs = (
     [('aue', 'aue'), # Mauer, bauen
      ('Aue', 'Aue'), # Auerhahn, Auenland
      ('eue', 'eue'), # Feuer, neuen
-     ('que', 'que'), # quer, bequem
-     ('aktuell', 'aktuell'),
-     ('Baguette', 'Baguette'),
      ('Euer', 'Euer'),
+     ('Baguette', 'Baguette'),
+     ('que', 'que'), # quer, bequem
      ('Quer', 'Quer'),
+     ('ktuell', 'ktuell'), # Aktuell, aktuell
      ('zuerst', 'zuerst'),
      ('Zuerst', 'Zuerst'),
+     ('oexist', 'oexist'), # Koexistenz, koexistieren
     ],
     [('ae', 'ä'),('oe', 'ö'), ('ue', 'ü'),
      ('AE', 'Ä'), ('OE', 'Ö'), ('UE', 'Ü'),
