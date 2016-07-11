@@ -75,9 +75,12 @@ Abbrs = (
      ('Baguette', 'Baguette'),
      ('que', 'que'), # quer, bequem
      ('Quer', 'Quer'),
-     ('ktuell', 'ktuell'), # Aktuell, aktuell
+     ('tuell', 'tuell'), # aktuell, virtuell
+     ('xuell', 'xuell'), # sexuell, Sexuell
      ('zuerst', 'zuerst'),
      ('Zuerst', 'Zuerst'),
+     ('koeff', 'koeff'),
+     ('Koeff', 'Koeff'),
      ('oexist', 'oexist'), # Koexistenz, koexistieren
     ],
     [('ae', 'ä'),('oe', 'ö'), ('ue', 'ü'),
