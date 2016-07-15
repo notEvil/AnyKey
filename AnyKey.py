@@ -220,9 +220,9 @@ Characters = {
     },
 
     NoMod._replace(RAlt=1): {
-        'KEY_A': 'ä',
-        'KEY_SEMICOLON': 'ö',
-        'KEY_I': 'ü',
+        'KEY_Q': 'ä',
+        'KEY_P': 'ö',
+        'KEY_O': 'ü',
         'KEY_D': 'ß',
         'KEY_5': '€',
     },
@@ -342,9 +342,9 @@ shiftChars = {
 }
 
 shiftRAltChars = {
-    'KEY_A': 'Ä',
-    'KEY_SEMICOLON': 'Ö',
-    'KEY_I': 'Ü',
+    'KEY_Q': 'Ä',
+    'KEY_P': 'Ö',
+    'KEY_O': 'Ü',
 }
 
 ## add shift characters
